@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_notes"
+        android:orderInCategory="100"
+        android:title="@string/notes"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_adress"
+        android:orderInCategory="100"
+        android:title="@string/adress"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_pay"
+        android:orderInCategory="100"
+        android:title="@string/pay"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_callendar"
+        android:orderInCategory="100"
+        android:title="@string/calend"
+        app:showAsAction="never" />
+</menu>
